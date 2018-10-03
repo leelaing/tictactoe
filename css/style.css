@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Notable");
+@import url("https://fonts.googleapis.com/css?family=Notable|Varela");
+@import url("https://fonts.googleapis.com/css?family=Black+Ops+One|Notable|Varela");
+* {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-family: 'Notable', sans-serif;
+}
+
+#message {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Varela', sans-serif;
+}
+
+#restart {
+  display: block;
+  border: black;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Varela', sans-serif;
+  text-decoration: none;
+  color: black;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: green;
+}
+
+table {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+  background-color: black;
+  padding: 0px;
+}
+
+#gameArea {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  width: 300px;
+  height: 300px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  font-size: 80px;
+  text-align: center;
+  background-color: white;
+  font-family: 'Black Ops One', cursive;
+}
+
+.options, label, input {
+  float: left;
+  font-size: 22px;
+}
+
+#player1, #player2 {
+  float: left;
+  font-size: 22px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+/*# sourceMappingURL=style.css.map */
